@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>File upload </h1>
+    <h2>Input type file upload</h2>
+    <form method ="get" action="" enctype ="multipart/form-data">
+
+
+        <p>Name: <br>
+         <input type="text" name ="name" placeholder="Enter Your Name">
+        </p>
+        <select name="education" id="education">
+            <option value="BE">BE</option>
+            <option value="MBA">MBA</option>
+            <option value="MS">MS</option>
+        </select>
+        <select name="posistion" id="posistion">
+            <option value="FrontENd">FrontENd</option>
+            <option value="Backend">Backend</option>
+            <option value="Fullstack">Fullstack</option>
+        </select>
+        <p>
+            Your Resume: <br>
+            <input type="file" name=" resume">
+        </p>
+        <p><input type="submit" name = "submit" value = "submit"></p>
+    </form>
+
+</body>
+</html>

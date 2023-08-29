@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Radio button</h1>
+    <form action="">
+        <p>
+
+            <label for="">Name:</label><br>
+            <input type="text" name = "username" placeholder="enter your name">
+        </p>
+        <p> 
+            <label for="email">Email</label><br>
+            <input type="email" id ="email" name = "email" placeholder="Enter  your Email" >
+        </p>
+        <p>
+            <label for="age"> Age</label>
+            <input type="number" id ="age" name ="age" min ="18" max ="100">
+        </p>
+        <p>
+            <label for="dob">DOB :</label>
+            <input type="date" id ="dob" name = "dob">
+        </p>
+        <p>
+            <label for="range">Price Range :</label>
+            <input type="range" name ="price" id ="price" min ="0" max="1000" step="10">
+        </p>
+        <p>
+            <label for="">Is this a</label> <br>
+            <input type="radio" name ="request_type" value ="sales" >Sales Request? <br>
+            <input type="radio" name ="request_type" vlaue ="service" checked>Sevice Request? <br>
+            
+        </p>
+        <p> 
+            <label for="">What would you like to learn</label><br>
+            <input type="checkbox" id = "html" name="programming[]" value = "Html" ><label for="html">Html</label>  <br>
+            <input type="checkbox"  id ="css" name="programming[]" value = "CSS" > <label for="css">CSS </label><br>
+            <input type="checkbox" id ="js" name="programming[]" value = "JS" > <label for="js">JS</label> <br>
+            <input type="checkbox" id = "react js" name="programming[]" value = "React Js" > <label for="react js">React Js</label> <br>
+            <input type="checkbox" id ="node js" name="programming[]" value = "Node JS" > Node Js <br>
+            <input type="checkbox" id ="python" name="programming[]" value = "Python" > Python <br>
+            <input type="checkbox" id ="django" name="programming[]" value = "Django" > Django <br>
+            <input type="checkbox" id ="orm" name="programming[]" value = "Orm" > Orm <br>
+            <input type="checkbox" id ="mysql" name="programming[]" value = "Mysql" > Mysql <br>
+        </p>
+        <p>
+            <label for="">Comments: </label><br>
+            <textarea name="comments" id="comment" cols="30" rows="10" placeholder="Enter Your Comments"></textarea>
+
+        </p>
+        <p>
+            <label for="website">Website:</label>
+            <input type="url" name = "website" id ="website">
+
+        </p>
+
+        <p>
+            <input type="submit" value="Send Message" name = "conatactform">
+        </p>
+    </form>
+</body>
+</html>
